@@ -5,7 +5,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.traversal.NodeFilter;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since 2003-07-30
  */
 public class RemoveAttrByName implements NodeFilter

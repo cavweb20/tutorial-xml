@@ -3,7 +3,7 @@ package io.github.cavweb20.xml.util;
 /**
  * Typical SAX 2.0 Constants.
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2008-05-15
  */
 public class SAXConstants

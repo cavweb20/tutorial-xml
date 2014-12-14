@@ -14,8 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.apache.xml.resolver.tools.CatalogResolver;
 
 /**
- * @author carlos
- *
+ * @author cavweb20
  */
 public class Resolver implements XMLResolver
 {

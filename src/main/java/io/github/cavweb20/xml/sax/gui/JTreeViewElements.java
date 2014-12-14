@@ -1,7 +1,7 @@
 package io.github.cavweb20.xml.sax.gui;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since May 17, 2004
  *  
  */

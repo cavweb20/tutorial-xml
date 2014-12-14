@@ -8,7 +8,7 @@ import org.xml.sax.SAXException;
 /**
  * SAX Content Handler
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004-05-15
  */
 public class EventReport2 extends DefaultHandler

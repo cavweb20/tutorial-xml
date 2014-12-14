@@ -9,7 +9,7 @@ import org.xml.sax.SAXParseException;
 /**
  * Typical SAX Error Handler.
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004
  */
 

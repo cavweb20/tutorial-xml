@@ -16,9 +16,9 @@ import org.xml.sax.helpers.XMLReaderFactory;
  * Usage:
  * - java SAXValidator src/main/resources/META-INF/lesson002/greeting.xml
  * - java SAXValidator src/main/resources/META-INF/lesson002/greeting_invalid.xml
- * - java SAXValidator http://webcc.fit.fraunhofer.de/
+ * - java SAXValidator http://imergo.de/
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004
  */
 public class SAXValidator extends DefaultHandler

@@ -22,7 +22,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * Usage:
  * - java SAXCatalogValidator http://imergo.com/ http://wired.com/
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004
  */
 public class SAXCatalogValidator extends DefaultHandler

@@ -24,7 +24,7 @@ public class XHTMLLinkFinder
     }
 
     /**
-     * Example URL: http://access.fit.fraunhofer.de/
+     * Example URL: http://imergo.de/
      * @param args
      */
     public static void main(String[] args)

@@ -1,7 +1,7 @@
 package io.github.cavweb20.xml.neko;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since  2003-07-30
  */
 public final class XHTMLConstants

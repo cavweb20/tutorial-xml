@@ -11,7 +11,7 @@ import org.xml.sax.SAXException;
 /**
  * SAX Content Handler
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2006-05-15
  */
 public class EventReport4 extends DefaultHandler

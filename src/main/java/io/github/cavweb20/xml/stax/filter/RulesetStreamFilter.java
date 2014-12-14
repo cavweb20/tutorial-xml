@@ -6,7 +6,7 @@ import javax.xml.stream.XMLStreamReader;
 /**
  * Stream filter to remove <rules> from the rule registry.
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2006-05-26
  */
 public class RulesetStreamFilter implements StreamFilter

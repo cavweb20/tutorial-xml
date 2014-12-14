@@ -9,18 +9,8 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 /**
- * <p>
- * Description: Class to handle events when parsing SAX entities events.
- * </p>
- * <p>
- * Copyright: Copyright (c) 2002
- * </p>
- * <p>
- * Company: FIT
- * </p>
- * 
- * @author velasco A. Velasco
- * @version 1.0
+ *
+ * @author cavweb20
  * @since 08/09/2002
  */
 public class TestEntityResolver implements EntityResolver

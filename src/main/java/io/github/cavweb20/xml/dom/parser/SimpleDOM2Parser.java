@@ -13,7 +13,7 @@ import org.apache.xml.resolver.tools.CatalogResolver;
 import org.xml.sax.SAXException;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since  2003-07-01
  */
 public class SimpleDOM2Parser

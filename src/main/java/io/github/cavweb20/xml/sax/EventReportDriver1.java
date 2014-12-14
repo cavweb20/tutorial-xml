@@ -12,7 +12,7 @@ import io.github.cavweb20.xml.util.XercesConstants;
 
 /**
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004-05-15
  */
 public class EventReportDriver1

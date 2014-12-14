@@ -18,7 +18,7 @@ import org.w3c.dom.traversal.NodeIterator;
 import org.xml.sax.SAXException;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since  2006-04-01
  */
 public class XhtmlLinkExtractor2

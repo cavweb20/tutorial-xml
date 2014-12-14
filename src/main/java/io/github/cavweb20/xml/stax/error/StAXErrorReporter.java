@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author velasco
+ * @author cavweb20
  *
  */
 public class StAXErrorReporter implements XMLReporter

@@ -24,7 +24,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * Usage:
  * - java SAXCatalogSchemaValidator http://bentoweb.org/refs/rulesets.xml
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004
  */
 public class SAXCatalogSchemaValidator extends DefaultHandler

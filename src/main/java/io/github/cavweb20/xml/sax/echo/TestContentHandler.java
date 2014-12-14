@@ -12,17 +12,8 @@ import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 
 /**
- * <p>
- * Description: Class to handle events when parsing SAX content events.
- * </p>
- * <p>
- * Copyright: Copyright (c) 2002
- * </p>
- * <p>
- * Company: FIT
- * </p>
- * 
- * @author Carlos A. Velasco
+ *
+ * @author cavweb20
  * @version 1.0
  * @since 08/09/2002
  */

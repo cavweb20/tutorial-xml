@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.w3c.dom.DOMImplementation;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since  2003-07-01
  */
 public class DOMModulesChecker

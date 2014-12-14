@@ -22,7 +22,7 @@ import io.github.cavweb20.xml.util.XercesConstants;
 /**
  * XPath example. Usage: java TestXpath META-INF/lesson08/shakespeare/hamlet.xml
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2008-05-25
  */
 public class TestXpath

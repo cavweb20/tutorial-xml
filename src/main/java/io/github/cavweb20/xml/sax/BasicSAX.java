@@ -13,9 +13,9 @@ import io.github.cavweb20.xml.util.XercesConstants;
 /**
  * First basic SAX program. Set to ignore external DTDs.
  * Usage:
- *   java BasicSAX http://webcc.fit.fraunhofer.de/ http://wired.com/
+ *   java BasicSAX http://imergo.de/ http://wired.com/
  * 
- * @author velasco
+ * @author cavweb20
  * @since  2004-05-15
  */
 public class BasicSAX

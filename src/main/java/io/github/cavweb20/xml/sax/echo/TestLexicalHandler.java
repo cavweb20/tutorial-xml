@@ -6,11 +6,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
 /**
- * <p>Description: Class to handle events when parsing SAX lexical events.</p>
- * <p>Copyright: Copyright (c) 2002</p>
- * <p>Company: FIT</p>
- * @author velasco A. Velasco
- * @version 1.0
+ *
+ * @author cavweb20
  * @since 08/09/2002
  */
 public class TestLexicalHandler implements LexicalHandler

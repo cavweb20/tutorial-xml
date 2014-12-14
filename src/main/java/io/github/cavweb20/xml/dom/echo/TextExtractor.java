@@ -16,7 +16,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- * @author velasco
+ * @author cavweb20
  * @since  2004-04-01
  */
 public class TextExtractor

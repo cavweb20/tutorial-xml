@@ -10,17 +10,8 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import io.github.cavweb20.xml.util.XercesConstants;
 
 /**
- * <p>
- * Description: Test of SAX to echo a XML File.
- * </p>
- * <p>
- * Copyright: Copyright (c) 2002
- * </p>
- * <p>
- * Company: FIT
- * </p>
- * 
- * @author Carlos A. Velasco
+ *
+ * @author cavweb20
  * @version 1.0
  * @since 08/09/2002
  */
