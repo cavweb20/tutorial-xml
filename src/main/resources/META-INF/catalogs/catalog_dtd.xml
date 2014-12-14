@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalog
+  PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+         "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+	<group prefer="public" id="xhtml10">
+		<public publicId="-//W3C//DTD XHTML 1.0 Strict//EN"
+			uri="dtd/REC-xhtml1-20020801/xhtml1-strict.dtd" />
+		<public publicId="-//W3C//DTD XHTML 1.0 Transitional//EN"
+			uri="dtd/REC-xhtml1-20020801/xhtml1-transitional.dtd" />
+		<public publicId="-//W3C//DTD XHTML 1.0 Frameset//EN"
+			uri="dtd/REC-xhtml1-20020801/xhtml1-frameset.dtd" />
+		<public publicId="-//W3C//ENTITIES Latin 1 for XHTML//EN"
+			uri="dtd/REC-xhtml1-20020801/xhtml-lat1.ent" />
+		<public publicId="-//W3C//ENTITIES Symbols for XHTML//EN"
+			uri="dtd/REC-xhtml1-20020801/xhtml-symbol.ent" />
+		<public publicId="-//W3C//ENTITIES Special for XHTML//EN"
+			uri="dtd/REC-xhtml1-20020801/xhtml-special.ent" />
+	</group>
+
+	<group prefer="public" id="apple">
+		<public publicId="-//Apple Computer//DTD PLIST 1.0//EN"
+			uri="dtd/apple/PropertyList-1.0.dtd" />
+	</group>
+
+</catalog>

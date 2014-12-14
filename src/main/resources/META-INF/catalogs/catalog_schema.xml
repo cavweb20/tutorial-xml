@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalog
+  PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+         "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+	<group prefer="system" id="xml">
+		<system systemId="http://www.w3.org/2001/xml.xsd"
+			uri="schemas/xml.xsd" />
+	</group>
+
+	<group prefer="system" id="xhtml10">
+		<system systemId="http://www.w3.org/2004/07/xhtml/xhtml1-strict.xsd"
+			uri="schemas/xhtml1-strict.xsd" />
+		<system systemId="http://www.w3.org/2004/07/xhtml/xhtml1-transitional.xsd"
+			uri="schemas/xhtml1-transitional.xsd" />
+		<system systemId="http://www.w3.org/2004/07/xhtml/xhtml1-frameset.xsd"
+			uri="schemas/xhtml1-frameset.xsd" />
+	</group>
+
+	<group prefer="system" id="bentoweb">
+		<system systemId="http://bentoweb.org/refs/schemas/xlink.xsd"
+			uri="schemas/xlink.xsd" />
+		<system systemId="http://bentoweb.org/refs/schemas/rulesets.xsd"
+			uri="schemas/rulesets.xsd" />
+	</group>
+
+</catalog>

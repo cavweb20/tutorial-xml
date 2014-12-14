@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<feed xmlns='http://www.w3.org/2005/Atom'
+xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'
+xml:lang='en-US'>
+
+<title>XML.com</title>
+<link rel="alternate" type="text/html" href="http://www.xml.com/" hreflang="en" title="XML.com" />
+<subtitle type='text'>XML.com Articles and Weblogs</subtitle>
+<rights>Copyright O'Reilly Media, Inc.</rights>
+<id>http://www.xml.com/</id>
+<updated>2006-05-18T15:45:45-08:00</updated>
+<link rel="self" type="application/atom+xml" href="http://www.oreillynet.com/pub/feed/20"/>
+<itunes:author>O'Reilly Media, Inc.</itunes:author>
+<itunes:category text='Technology' />
+<itunes:explicit>no</itunes:explicit>
+<itunes:owner>
+<itunes:name>O'Reilly Media, Inc.</itunes:name>
+<itunes:email>webmaster@oreillynet.com</itunes:email>
+</itunes:owner>
+
+<entry>
+	<title>Draft 1.3 of the Ecma Office Open XML Formats Standard Now Available</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/draft_13_of_the_ecma_office_op.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/draft_13_of_the_ecma_office_op.html?CMP=OTC-TY3388567169&amp;ATT=Draft+1+3+of+the+Ecma+Office+Open+XML+Formats+Standard+Now+Available'/>
+	<summary type='html'>
+	&lt;p>via a post from earlier today, Brian Jones, a program manager working on the XML functionality and file formats  in MS Office, both reports, to then extend with additional commentary writes,&lt;/p>
+&lt;p>&lt;a href="http://blogs.msdn.com/brian_jones/archive/2006/05/18/601150.aspx">Draft 1.3 of the Ecma Office Open XML formats standard&lt;/a> &lt;/p>
+&lt;blockquote>&lt;p>Wow, we finally have an updated draft of the Ecma Office Open XML formats standard! http://www.ecma-international.org/news/TC45_current_work/TC45-2006-50.htm I&amp;#8217;ve been waiting for a long time to be able to share all the great work that&amp;#8217;s been going on in Ecma TC45, and it&amp;#8217;s so awesome that we have a new public draft. I can&amp;#8217;t wait to hear what everyone thinks. If you go to that site, you&amp;#8217;ll see three different downloads:&lt;br />
+Draft 1.3 of the spec - The big download is the spec itself in PDF form. It&amp;#8217;s about 25 megabytes and is around 4000 pages.&lt;br />
+Draft 1.3 of the spec in the Open XML format - Alternatively, you can download the .docx version of the spec. Once Beta 2 comes out, you can open it that way (although opening 4000 pages of content with beta software may be slightly problematic &lt;g/>)&lt;br />
+Schemas - The schema files are also available for download. They are available in a ZIP file, that also contains an index.htm file that describes each xsd &lt;/p>
+&lt;p>We&amp;#8217;ve been working really hard over the past 5 months bringing this standard along. There is still a lot of work to do, but you&amp;#8217;ll see pretty clearly that we&amp;#8217;ve made a ton of progress over the initial submission from last year. We have weekly 2 hour phone conferences (they are actually at 6am my time which is not ideal &lt;g/> ), as well as 3 day face to face meetings about every 2 months. The contributions from everyone has just been outstanding. It&amp;#8217;s so awesome to work with such a diverse group of people. While the initial submission was made by Microsoft, it&amp;#8217;s now completely in Ecma&amp;#8217;s control and we&amp;#8217;ve had a lot of help from Apple, Barclays Capital, BP, The British Library, Essilor, Intel, Microsoft, NextPage, Novell, Statoil, and Toshiba. &lt;/p>
+&lt;p>***Note*** Remember that this is just a draft. Some sections of the spec are much further along than others, so keep that in mind while you are looking through the spec. If you are in an area that looks like there isn&amp;#8217;t much information, odds are we just haven&amp;#8217;t gotten to that yet.&lt;/p>&lt;/blockquote>
+&lt;p>A lot of valuable information in both this post, and as I have recently come to discover over the past couple of weeks, in Brians overall blog entries in general.  If you don&amp;#8217;t already, I would HIGHLY recommend (&lt;a href="http://www.oreillynet.com/xml/blog/2006/05/good_technical_blogs_at_micros.html">as does Rick Jelliffe&lt;/a> from several days before me in this post) adding either the &lt;a href="http://blogs.msdn.com/brian_jones/atom.aspx">Atom 1.0&lt;/a> or &lt;a href="http://blogs.msdn.com/brian_jones/rss.aspx">RSS 2.0&lt;/a> feed to your feed reading mechanism of choice.&lt;/p>
+&lt;p>The world is filled with all types of document formats, and opinions as to which one is better for one purpose or another, but in the end content is King.  If we could design one document format that could persist from now until the end of time, if that format were to never contain any content, it simply would not matter.&lt;/p>
+&lt;p>That said, &lt;/p>
+&lt;p>Document formats need to allow accessibility, reliability, extensibility, as well as persistence for as long as they have the capability to do so to ensure that the authors original content AND intent are both preserved and accessible, no matter what tools they choose to use to create that content.  I may prefer a different type of brush and oil colors in a different shade of blue, red, and green, than you would choose.  Then again, you may prefer avoiding brushes and shades of oil colors all together, instead choosing a camera to record the painting of a picture from a completely different perspective, using filters, and angles, and light direction, and lens to allow for a completely different view than someone else who has their camera pointed in the same location at the same time, to produce a result unlike your photograph and my painting, and yet just as important to them as your is to you and mine to me.&lt;/p>
+&lt;p>In the end,  when about our business of creation, it is our tools of choice that allow us the expression we desire and/or prefer.  But the tools are not what gain the credit for its creation, nor do they gain possession of the legal copyright.  The film persists an image, as does the canvas, but while maintaining responsibility for this persistence, the credit for the creation of this image is what matters to us both personally and legally, affording us the freedom to choose who we would like to share these creations with, and who we would not.&lt;/p>
+&lt;p>OpenXML and ODF are containers, nothing more, nothing less.  But containers such as these hold the potential to control who can view, who can see, who can edit, and who can reproduce and redistribute our creations, beyond what our personal desires in this regard might be.  The ability to gain access to and maintain control of the content we create is our right, expressed in the legal form of a copyright.  With this in mind, OpenXML and ODF sit at the very foundation of freedom, and choice, and could very well be the most important document formats to ever again find rights of passage into the foundation of our technological future.&lt;/p>
+&lt;p>As members of the XML community, it is our obligation to make sure we both use our skills and knowledge as well as our overall understanding of how to best use XML to allow the greatest amounts of freedoms from the entire spectrum in which freedom can both exist and persist, while at the same time the smallest amounts of restrictions and frictions placed upon those in whom will be using these documents of expression for many years beyond the day that each and everyone of us no longer finds ourselves a part of this industry, this community, or even this world.&lt;/p>
+&lt;p>As such, please get involved with one, the other, or both of these important formats, and do so with the intent of building upon a foundation of freedom for everyone who will come in contact with these formats to use for persistence of both creation, expression, and the ability to decide for ones self what tools they/we/all of us prefer to use, or even which format they/we/all of us prefer to place their/our creations upon for long term persistence/storage/sharing.&lt;/p>
+&lt;p>In the end, the most important part of all of this is whats on the inside of these containers.  &lt;/p>
+&lt;p>But we&amp;#8217;re not at the end yet&amp;#8230; and instead at the very beginning.  &lt;/p>
+&lt;p>Gaining access to the contents of these containers at any time, by anybody in whom the original copyright holder desires to provide access to is the most important piece in all of this.  We have the ability now to ensure this is possible from both the ODF and OpenXML side of this important moment in history.  Whether one format or the other ultimately becomes the prefered choice from a long term perspective should be left to the long term to decide for itself.  &lt;/p>
+&lt;p>In the short term we have work to do in making sure that no matter what the preference ends up to be, that preference provides free access based on the copyright holders desires as to the content on the inside no matter what the label says on the outside.&lt;/p>
+&lt;p>Its time to get to work.  A carpool list is on the fridge in the lunch room, and for those interested, free bus passes are available from the receptionist in the lobby.&lt;/p>
+&lt;p>I plan to ride my bike myself, so whether you choose carpool, bus or something else all together, you don&amp;#8217;t have to worry about getting stuck sitting next to me and my jibberjabber loud mouth.&lt;/p>
+&lt;p>Although, if you like to sing, then maybe my jibberjabber loudmouth is something you wouldnt mind so much&amp;#8230; I can hold a tune better than I bet you think I can, and can even harmonize with the right folk.&lt;/p>
+&lt;p>But until such time as we start up our garage band, lets just get our a$$ off this chair and into whichever area of focus we decide to place it upon.&lt;/p>
+&lt;p>This is pretty important stuff, don&amp;#8217;t you think? :)
+&lt;/p>
+	</summary>
+	<author><name>M. David Peterson</name></author>
+	<updated>2006-05-18T15:45:45-08:00</updated>
+</entry>
+
+<entry>
+	<title>Dynamic News Stories</title>
+	<id>http://www.xml.com/pub/a/2006/05/17/dynamic-news-stories.html</id>
+	<link rel='alternate' href='http://www.xml.com/pub/a/2006/05/17/dynamic-news-stories.html?CMP=OTC-TY3388567169&amp;ATT=Dynamic+News+Stories'/>
+	<summary type='html'>
+	&lt;a href='http://www.xml.com/pub/a/2006/05/17/dynamic-news-stories.html?CMP=OTC-TY3388567169&amp;amp;ATT=Dynamic+News+Stories'>&lt;img src='http://www.xml.com/2006/05/17/graphics/111-dynamic_news.gif' width='111px' height='91px' alt='tile image' align='left' border='0'/>&lt;/a>Adrian Holovaty, one of a new generation of geek-journalists and a main developer of Django, offers some suggestions for XML elements that could be used to make news stories more dynamic and more machine-readable.
+	</summary>
+	<author><name>Adrian Holovaty</name></author>
+	<updated>2006-05-17T11:29:52-08:00</updated>
+</entry>
+
+<entry>
+	<title>Dear Microsoft, Thank You For the XMLHTTP/XmlHttpRequest Object, DHTML, and For Letting Us All Use Them And/Or Build Our Own Without Requiring That We Pay You Even A Dime</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/dear_microsoft_thank_you_for_t.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/dear_microsoft_thank_you_for_t.html?CMP=OTC-TY3388567169&amp;ATT=Dear+Microsoft+Thank+You+For+the+XMLHTTP+XmlHttpRequest+Object+DHTML+and+For+Letting+Us+All+Use+Them+And+Or+Build+Our+Own+Without+Requiring+That+We+Pay+You+Even+A+Dime'/>
+	<summary type='html'>
+	&lt;p>&lt;strong>Update&lt;/strong>: This just in&amp;#8230;&lt;/p>
+&lt;p>via &lt;a href="http://annevankesteren.nl/2006/05/attribution">a recent blog entry &lt;/a>from Anne van Kesteren&lt;/p>
+&lt;blockquote>&lt;p>Attribution&lt;/p>
+&lt;p>Hereby my apologies to everyone who had to waste his time by writing a rant, because the Web APIs WG and probably Dean and myself in particular (being the editors) didn&amp;#8217;t get the attribution right. This was fixed quite soon after the first draft was released in the editor&amp;#8217;s draft of XMLHttpRequest, but you can&amp;#8217;t change the published version. Sjoerd just told me we made the frontpage of XML.com with that. Great! The current draft reads: &amp;#8220;Special thanks also to the Microsoft employees who first implemented the XMLHttpRequest interface, which was first widely deployed by the Windows Internet Explorer browser.&amp;#8221;&lt;/p>&lt;/blockquote>
+&lt;p>So it seems that I can now make some changes to my text to instead read as follows:&lt;/p>
+&lt;p>It seems that &lt;a href="http://www.w3.org/TR/XMLHttpRequest/">some folks&lt;/a> &lt;del>have a hard time understanding&lt;/del> &lt;ins>are human and make mistakes just like the rest of us.  &lt;a href="http://www.oreillynet.com/xml/blog/2006/05/debunking_the_odf_bunk.html">Like me&lt;/a>, for example. (more often than I wish I would :)&lt;/ins>&lt;/p>
+&lt;p>1 - &lt;del>How to say thank you to someone who has helped them build a better web.&lt;/del> From all of us Microsoft, Thanks! :)&lt;br />
+2 - &lt;del>How to&lt;/del> &lt;ins>We&lt;/ins> all recognize that it was you and your incredibly talented and dedicated teams of software developers who both designed, built, and released all of which is commonly refered in &amp;#8220;modern&amp;#8221; terms as AJAX.&lt;br />
+3 - &lt;del>That all they did was&lt;/del>Thanks for letting us copy you&lt;em>r&lt;/em &lt;ins>work, without requiring us even to ask.  We didn&amp;#8217;t mean to come across as if we were&lt;/ins> taking credit for your work as if it was &lt;del>their&lt;/del> our idea in the first place. &lt;ins>But sometimes the way the system is designed, correcting obvious mistakes is impossible in a way that doesn&amp;#8217;t make it seem like this was an intentional act of negligence.&lt;/ins>&lt;/p>
+&lt;p>I&amp;#8217;m no&lt;del>t&lt;/del>&lt;ins>w&lt;/ins> one of them &lt;ins>again&lt;/ins>. &lt;ins>From all of us, &lt;/ins>  Thank you&lt;del>. &lt;/del>&lt;ins>!&lt;/ins> &lt;del>I&lt;/del> &lt;ins>We&lt;/ins> use your work in pretty much every aspect of &lt;del>my&lt;/del> our web development life these days, so &lt;del>I&lt;/del> &lt;ins>we&lt;/ins> can quite easily state that without your efforts, &lt;del>I&lt;/del> &lt;ins>we&lt;/ins> couldn&amp;#8217;t do what &lt;del>I&lt;/del> &lt;ins>we&lt;/ins> enjoy most in &lt;del>my&lt;/del> &lt;ins>our&lt;/ins> life.&lt;/p>
+&lt;p>Build&lt;ins>ing&lt;/ins> cool software. :)&lt;/p>
+&lt;p>Of course there&amp;#8217;s LOTS of other stuff that you&amp;#8217;ve developed that we all seem to take for granted.  The list is long, so for now please know that your efforts have not gone unnoticed.&lt;/p>
+&lt;p>&lt;del>At least by some of us anyway.&lt;/del>  &lt;ins>In fact, we all take notice of these things, even if we don&amp;#8217;t always make it known.&lt;/ins>&lt;/p>
+&lt;p>&lt;ins>From ALL of us,&lt;/ins> Thanks again :)&lt;/p>
+&lt;p>[Credit to &lt;a href="http://www.25hoursaday.com/weblog/">Dare Obasanjo&lt;/a> for &lt;a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=b6a6febf-51ba-4263-84a0-360e67d98391">bringing this matter&lt;/a> to the the attention of his readers.]  (&lt;del>see how easy that is&lt;/del>  &lt;ins>That feels much better to get this all straightened out :))&lt;/ins>&lt;/p>
+&lt;p>&lt;ins>[NOTE: Thanks Anne!  I&amp;#8217;m glad to see that I was mistaken with my concerns :)]&lt;/ins>&lt;/p>
+&lt;p>&lt;strong>Update&lt;/strong>: It&amp;#8217;s unfortunate that the world is filled with people who can&amp;#8217;t seem to understand the concept of learning about life, and instead preaching to others their opinions as if they are so far beyond what anybody else could possibly understand in regards to just how incredibly brilliant they are, and anybody else is not.&lt;/p>
+&lt;p>Sorry for the need to turn off the comments, as it seems that some of you might have something of value to add to this overall conversation.  Sadly, the current trend of visitors have ruined things for the rest of you&amp;#8230; as they usually tend to do.&lt;/p>
+	</summary>
+	<author><name>M. David Peterson</name></author>
+	<updated>2006-05-15T05:15:47-08:00</updated>
+</entry>
+
+<entry>
+	<title>How to handle "making everything optional"</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/how_to_handle_making_everythin.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/how_to_handle_making_everythin.html?CMP=OTC-TY3388567169&amp;ATT=How+to+handle+making+everything+optional'/>
+	<summary type='html'>
+	&lt;p>Dare Obasanjo &lt;a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=d324a639-8bbd-4c81-b5c8-ca9235e16350">quotes&lt;/a> Tim Ewald&amp;#8217;s &lt;a href="http://pluralsight.com/blogs/tewald/archive/2006/04/24/22570.aspx">comment&lt;/a> &lt;/p>
+&lt;p>&lt;bq>&lt;i>I&amp;#8217;ve started thinking about my schema not as the definition of what this system needs right now but as the definition of what the data should look like if it&amp;#8217;s present instead.&lt;/i>&lt;/bq>&lt;/p>
+&lt;p>Glad to see this, because it gets us to the start of where Schematron is useful: if the XSD schema just expresses only the most invariant of the invariants of the schema, then what do we use to express the constraints appropriate in t particular phases of a document&amp;#8217;t life or history or evolution?   The &amp;#8220;contract&amp;#8221; is just one kind of phase. &lt;/p>
+&lt;p>There was some debate (Roger Costello was a champion) of default openness in XSD. But I have seen increasing use of the idea that the master/base schema has to be as loose as possible: indeed, derivation by restriction is fragile and impractical without it, because if you need a derived schema to have something optional you need to go back to the master to make it optional.  A friend reports that he has taken to calling super-loose base schemas &amp;#8220;vocabularies&amp;#8221; and &amp;#8220;ontologies&amp;#8221; to avoid confusing people who expect a schema to be really prescriptive.&lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-14T21:15:38-08:00</updated>
+</entry>
+
+<entry>
+	<title>Good Technical Blogs at Microsoft</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/good_technical_blogs_at_micros.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/good_technical_blogs_at_micros.html?CMP=OTC-TY3388567169&amp;ATT=Good+Technical+Blogs+at+Microsoft'/>
+	<summary type='html'>
+	&lt;p>My favourite technical blogs at MS at the moment are&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://blogs.msdn.com/jensenh/default.aspx">Jensen Harris: An Office User Interface Blog&lt;/a> which spruiks and roots and toots about the new GUI for Office. (Java and Linux developers really need to look at this to get an idea of how far Java and Linux will need to come to meet the new bar; I&amp;#8217;ve mentioned the Substance and Flamingo projects at javadesktop.org before.) Jensen writes well and has a light touch.&lt;/li>
+&lt;li>&lt;a href="http://www.25hoursaday.com/weblog/">Dare Obasanjo&lt;/a> is a good omen for Microsoft&amp;#8217;s intellectual vitality. Likeable, knowledgable, pro-active and on-message about his own projects, the honesty of his comments on other areas gives credibility to his comments on his own projects. I didn&amp;#8217;t read any Microsoft technical blogs until I started reading Dare&amp;#8217;s blog, which overcame my suspicion that the blogs would be reformatted press releases.&lt;/li>
+&lt;li>&lt;a href="http://blogs.msdn.com/brian_jones/">Brian Jones: Open XML Formats&lt;/a> is a goldmine of interesting information, though comments like &lt;q>Let&amp;#8217;s allow people to choose the formats they want. I&amp;#8217;m not sure anyone is opposed to choice.&lt;/q> seems a tad insincere unless MS distrubutes an ODF plugin with Office.  (My attitude on ODF versus so-called OpenXML is little different to the Groklaw-style cynics or the Peterson-style enthusiasts: I welcome both but have a big eyeroll thinking of the &lt;b>twenty years of missed opportunities&lt;/b> which Microsoft has cheated its users out of by not providing an XML interface until recently: I remember trying out their appalling &lt;a href="http://xml.coverpages.org/authorTech.html">SGML Author for Word&lt;/a> more than a decade ago and  wishing they just had a simple mini-SGML version of RTF instead, like the Rainbow DTD. I hope the &amp;#8220;Open&amp;#8221; in &amp;#8220;Open XML&amp;#8221; refers to a change of thinking in MicroSoft management in favour of agressive interoperability.) &lt;/li>
+&lt;/ul>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-14T03:15:44-08:00</updated>
+</entry>
+
+<entry>
+	<title>Revitalize old web applications with server-side mashup techniques</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/revitalize_old_web_application.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/revitalize_old_web_application.html?CMP=OTC-TY3388567169&amp;ATT=Revitalize+old+web+applications+with+server-side+mashup+techniques'/>
+	<summary type='html'>
+	&lt;p>This week I have been watching a collegue apply mashup techniques to revitalize a quite large (25 pages, each with mulitple frames, plus various popups) old Java web application which was initially designed almost ten years ago, but its user interface has remained basically the same (except for graphics and minor changes) since about 2000, with HTML designed to work on IE 5 and quite a lot of use of JavaScript.&lt;/p>
+&lt;p>The application is pretty well structured three-tier-on-one-server system, backend DBMN, application logic middleware one-servlet-per-frame generating XML, then presentation level servlets one-servlet-per-frame converting the XML to HTML.  My collegue&amp;#8217;s challenge has been to create an entirely new interface, more based on blogging systems but using XHTML, CSSZenGarden-ish CSS techniques, reduced JavaScript only for menus, almost no use of HTML tables (CSS positioning instead), and removing statefullness from the client end as much as possible. And no change of the Java code. &lt;/p>
+&lt;p>The biggest change is that the Java servlets previously corresponded to frames. Now there is effiectively one big XSLT script which potentially queries any of the servlets to produce the mashed up page.  The programmer intends to refactor the big XSLT: the trouble with a single script is that it become difficult to have multiple programmers working on the code. But the project itself is fairly interesting: turning a c. 2000 state of the art HTML interface into a c. 2006 state-of-the-art XHTML interface with utterly different user interface from every aspect, but with no change to the XML-generating Java. &lt;/p>
+&lt;p>So even though the XML was designed with the idea &amp;#8220;what information is needed by this frame in this application&amp;#8221; once all the information for the application is exposed as XML by all the servlets, the information can be mashed up into an entirely new interface. It is the universal access to all the data that is the key here: that the data is exposed as a URL from a servlet using XML enables it too, but the fact the the data is open reduces the need to alter the Java &amp;#8220;application logic&amp;#8221;: indeed the &amp;#8220;application logic&amp;#8221; performed by the middle no longer reflects the application logic as perceived by the user, the connection between middleware servlet and frame no longer holding.&lt;/p>
+&lt;p>So this is not AJAX nor mashups in the sense of client-side combination of independent data sources. But the excitement about client-side interactions often means more JavaScript in effect, and the fact that JavaScript programmers frequently are keen to reduce the amount of JavaScript in a system design speaks volumes.  The option of using server-side mashups generating beautiful XHTML with aggressive use of CSS and JavaScript for minimal dynamic  interface controls shouldn&amp;#8217;t be lost in the AJAX noise.  &lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-12T21:15:55-08:00</updated>
+</entry>
+
+<entry>
+	<title>Debunking the ODF Bunk</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/debunking_the_odf_bunk.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/debunking_the_odf_bunk.html?CMP=OTC-TY3388567169&amp;ATT=Debunking+the+ODF+Bunk'/>
+	<summary type='html'>
+	&lt;p>&lt;strong>PLEASE NOTE&lt;/strong>:  I made a mistake. After careful reanalysis, I now believe the original analysis I made regarding Tim Bray&amp;#8217;s blog entries that I added later and labeled an &amp;#8220;&lt;strong>Update&lt;/strong>&amp;#8221; contains innaccuracies that require that I remove the content from this entry, annotate a new file with proper information stating this was an error that I can no longer stand comfortably behind as the author and have made this &lt;a href="http://channelxml.com/errors/blog.entry/www.oreillynet.com/xml/blog/2006/5/debunking_the_odf_bunk.html/ERROR.By.M.David.Peterson.My.CONCLUSION.WAS.INNACCURATE.txt">publicly available&lt;/a> to ensure proper derefrencing can be made. &lt;/p>
+&lt;p>No one asked me, or even suggested to me that I remove these comments.  I did this on my own accord based on my own decision that this was something I could no longer stand behind, but yet must take full responsibilty for the innaccurate content in a public manner to ensure that this information can be properly propogated.&lt;/p>
+&lt;p>I also owe Tim an apology.  This was not his mistake, and instead mine.&lt;/p>
+&lt;p>Tim, my apologies.  I took things too far out of context, without applying enough care to ensure that my final evaluation was, in fact, something I could continue to stand behind with any level of integrity.  I couldn&amp;#8217;t.  It was not a deliberate mistake, but a mistake none-the-less.&lt;/p>
+&lt;p>Again, my apologies.&lt;/p>
+&lt;p>The rest of this entry (which was the original post before the additions mentioned were made) I both can, and do stand behind, as I believe that it contains accurate, well researched information.  Obviously there are some references that a few folks may not be all that happy about, including Tim.  But the content I have now dereferenced was not something that belonged here anymore&amp;#8230;  I hope you can understand my reasoning for both removing it, annotating it, and making this publically available to ensure that the innaccuracies can be properly referenced and propogated as necessary.&lt;/p>
+&lt;p>&amp;#8212;&lt;br />
+[Original Post]&lt;br />
+&lt;a title="Consortium-info.org - On the Art (?) of Disinformation: telling the Big Lie" href="http://www.consortiuminfo.org/standardsblog/article.php?story=20060508212631792">Consortiuminfo.org - On the Art (?) of Disinformation: telling the Big Lie&lt;/a>&lt;/p>
+&lt;blockquote>&lt;p>The offense of the Big Lie on the personal level is its assumption that, &amp;#8220;I can lie to you and you won&amp;#8217;t catch me.&amp;#8221;  Taken to the marketplace, and included in letters to government agencies, the effect is pernicious.  As a result, exposing the Big Lies is both important and necessary - and hence the reason for blog entries such as this.&lt;/p>&lt;/blockquote>
+&lt;p>This is becoming silly.  We no longer live in a world where software is compared on a feature-by-feature basis, and instead debates from one blog to the next by folks who are dissecting legal documents attempting to find &amp;#8220;fraudulent&amp;#8221; statements to extend the idea that, in fact, the real pioneers, the real hero&amp;#8217;s, and real men and women fighting for the rights of the common man and common women who, if Microsoft had their way, would be left shoe-less, shirtless, penny-less, and servants to the Almighty Micro-God, bowing down to their every demand just because &amp;#8220;thats what we&amp;#8217;re supposed to do&amp;#8230;. The GREAT ONE has spoken, and told it to be so.&amp;#8221;&lt;/p>
+&lt;p>First off&amp;#8230; &lt;/p>
+&lt;p>Bullshit.&lt;/p>
+&lt;p>Second off&amp;#8230;. lets gets some facts out the way first, and then move forward from there.  No more dissecting of legal terms, and instead the straight forward facts.&lt;/p>
+&lt;p>Let&amp;#8217;s start with this statement from the same linked document above:&lt;/p>
+&lt;blockquote>&lt;p>Here&amp;#8217;s another example of the same, this time taken from Microsoft&amp;#8217;s FAQ on it&amp;#8217;s submission of its XML Open to Ecma:&lt;/p>
+&lt;p>Q. Why is Microsoft offering a new standard, rather than simply supporting the file format for the Open Office product (sometimes called ODF)? &lt;/p>
+&lt;p>A. Sun submitted the OpenOffice formats to a small committee in the OASIS organization. The record shows that there were almost no material changes to the OpenOffice specification from the time it was submitted to the time it was approved by the working group at OASIS. Sun timed the release of the OpenDocument standard in conjunction with the OpenOffice 2.0 release. The OASIS committee did not focus on the requirements, constraints, and experiences of Microsoft customers.&lt;/p>
+&lt;p>I debunked that one in detail back on December 13 of last year.  Every characterization, and most of the facts, are untrue.&lt;/p>&lt;/blockquote>
+&lt;p>Ooooohhh&amp;#8230; As luck would have it I debunked the attempted debunk &lt;a href="http://www.xsltblog.com/archives/2005/11/dont_reinvent_t.html">two weeks prior&lt;/a>&amp;#8230; (&lt;strong>Update&lt;/strong>: It seems my effort to spellcheck a bit more carefully has gotten the best of me.  &amp;#8220;dont_reinvent_t.html&amp;#8221; was renamed &amp;#8220;don&amp;#8217;t_reinvent_t.html&amp;#8221;.  This is now fixed, pointing to the correct (and available) URI)  Here&amp;#8217;s a word-for-word copy of the same document that speaks directly to:&lt;/p>
+&lt;blockquote>&lt;p>Q. Why is Microsoft offering a new standard, rather than simply supporting the file format for the Open Office product (sometimes called ODF)?&lt;/p>&lt;/blockquote>
+&lt;blockquote>&lt;p>November 29, 2005&lt;br />
+Don&amp;#8217;t Reinvent The Basics? Since When Did Sun Have Anything To Do With &amp;#8220;Inventing&amp;#8221; The Office Software Basics?&lt;/p>
+&lt;p>&lt;a href="http://www.tbray.org/ongoing/When/200x/2005/11/28/ODF-and-Atom">ongoing ï¿½ Catcalls&lt;/a>&lt;/p>
+&lt;blockquote>&lt;p>Turning to the office-document space: right now the world has exactly one finished, delivered, standardized, totally-unencumbered, multiply-implemented XML-based office document format. You are the guys who want to introduce another, incompatible one. And I think that&amp;#8217;s OK; but restrict your invention to the specialized Microsoft stuff that ODF can&amp;#8217;t do, and don&amp;#8217;t re-invent the basics. Why is this controversial?&lt;/p>&lt;/blockquote>
+&lt;p>So I admire Tim Bray probably more than I admire most anybody else on this planet, so I am leaving room for the fact that I could simply be misinterpreting this part of the above statement:&lt;/p>
+&lt;blockquote>&lt;p>You are the guys who want to introduce another, incompatible one. And I think that&amp;#8217;s OK; but restrict your invention to the specialized Microsoft stuff that ODF can&amp;#8217;t do, and don&amp;#8217;t re-invent the basics.&lt;/p>&lt;/blockquote>
+&lt;p>First off:&lt;/p>
+&lt;p>You are the guys who want to introduce another, incompatible one.&lt;/p>
+&lt;p>I&amp;#8217;m quickly running a historical regression test through my brain to see just where it was that things began to break as far as introducing new formats into the already crowded office document types namespace. While MS Office wasn&amp;#8217;t the first Word Processor, which, if I have my facts correct, the first GUI-based word processor was Bravo, which was followed by Gypsy. Both of these were created, in part, by Charles Simonyi who would later take a position with Microsoft and would eventually drive the development of Microsoft Word and Excel and who until recently(a few years back) continued as Microsoft&amp;#8217;s Chief Architect. Of course the market for commercial desktop applications didn&amp;#8217;t become possible until there was a solid base of desktop computers to sell licenses to use such software. With this in mind, it was the early 80&amp;#8217;s that Wordstar, WordPerfect, and MS Word would hit the market, I believe Word being the last of the three in 1983.&lt;/p>
+&lt;p>I will concede that who beat who to market at this stage in desktop computings history would make a great question for Trivial Pursuit, But it would make a horrible basis for any sort of argument against Microsoft&amp;#8217;s &amp;#8220;Pioneer&amp;#8221; status in the office document processing software business.&lt;/p>
+&lt;p>On the other hand, while StarOffice historically has its roots in the mid to late 80&amp;#8217;s, it wasn&amp;#8217;t until 1999 that Sun purchased the rights to StarOffice, so to claim that they had ANYTHING to do with the development of any sort of major office-type software developments anytime before 1999 simply means you haven&amp;#8217;t done your historical homework.&lt;/p>
+&lt;p>Now, even if Tim is not so much referring to Sun and instead to Oasis and their efforts to develop the XML Open Document format, this only makes the gap even smaller as the Oasis effort didn&amp;#8217;t, from what I remember, start until the 2002 time frame, and the first draft wasn&amp;#8217;t made available until the first part of 2004.&lt;/p>
+&lt;p>So I guess my question with this is:&lt;/p>
+&lt;p>Just who&amp;#8217;s re-inventing the basics, and why?&lt;/p>
+&lt;p>Sounds a lot more like politics and a lot less like a legitimate argument in favor of the obvious late comer to the game looking for any possible way to seem like the good guy (referring to Sun, not Tim&amp;#8230; Tim is a good guy :) when in fact they are the ones responsible for confusing matters more so than anyone else. Thats not to suggest that the OASIS Open Document Format is confusing. In fact, just the opposite! But the mere fact that theres no legacy document formats to support is exactly the reason for the &amp;#8220;agile&amp;#8221; appearance and has nothing to do with Microsoft being slow. They just have 100&amp;#8217;s of millions of customer to worry about supporting and OpenOffice/StarOffice&amp;#8230; well, definitely not 100&amp;#8217;s of millions, and even further no real concern for breaking compatibility between document versions&amp;#8230; well, this does break compatibility, but when theres only a handful of people to worry about (of which are all anxious supporters of the new format anyway) theres certainly not a whole lot to lose, now is there.&lt;/p>
+&lt;p>Now, can we all move on to something more interesting and exciting&amp;#8230; Like &lt;a href="http://www.xsltblog.com/archives/2005/11/all_right_thats.html">compound document formats&lt;/a>? ;)&lt;/p>&lt;/blockquote>
+&lt;p>Folks&amp;#8230;. I like OpenOffice.org and the ODF format.  Some of the people (like Tim Bray given his comment was the basis of this particular rant) who have been a part of its development and promotion are people I hold in the highest regard.  In fact, I hold very few people in higher regard than &lt;a href="http://netapps.muohio.edu/blogs/darcusb/darcusb/">Bruce D&amp;#8217;Arcus&lt;/a> when it comes to truly understanding all there is to know in regards to the importance of both Oo.o/ODF as well as Microsoft Office/OpenXML.  Is Bruce critical of Microsoft.  Sometimes.  But the thing about Bruce that I have come to respect more than anything is his pragmatic approach to the overall Office software landscape.  &lt;/p>
+&lt;p>Is Office going to disappear anytime soon?&lt;/p>
+&lt;p>No!  Bruce understands this and as such continues to make efforts to push forward with gaining direct MS Office support for various projects that extend from CiteProc (His OSS citation software project) and with the extended integration of various tools and utilities.&lt;/p>
+&lt;p>Does this mean he puts on a MS cheerleading outfit and chants MS fight songs during his lunch break?&lt;/p>
+&lt;p>That, I don&amp;#8217;t  know&amp;#8230; ;) &lt;/p>
+&lt;p>But I can probably guess, and I think we can safely assume that each of us know what the answer is.&lt;/p>
+&lt;p>I&amp;#8217;ve learned a lot from watching Bruce&amp;#8217;s approach to all of this.  He gets people involved, is the best OSS project manager I&amp;#8217;ve ever worked with (even though we never did do all that much work together, from day one I knew Bruce knew exactly how to handle herding cats&amp;#8230;  He was, and is, a natural&amp;#8230;) and he understands that the best way to &amp;#8220;win&amp;#8221; the battle is to keep your friends close and your enemies closer.&lt;/p>
+&lt;p>That said, I don&amp;#8217;t believe that Bruce sees MS as the enemy, but I also won&amp;#8217;t put words into his mouth, and instead simply suggest that maybe instead of pouring resources into fighting the battle on the battlefields of the blogosphere, the classic media/press, the U.S. legal systems, etc&amp;#8230; why not instead focus on making the absolute best of what can be made in the here and now, and then fight the next stage of this battle in the marketplace?&lt;/p>
+&lt;p>If this doesn&amp;#8217;t happen, and instead we continue to try and squeeze every drop of advantage that we possibly can from the above mentioned mediums, we will be setting the precedence for a future where instead of fighting for market share with features, we will instead be fighting with favors to politicians, lobbyists, and/or any other source of so called advantage we think we can possibly gain through the legal channels, spending all of our development resources on these same mentioned channels, instead of putting that money into the development of the products themselves.&lt;/p>
+&lt;p>Whether anyone on the ODF side is willing to admit it or not, this isn&amp;#8217;t about document formats.&lt;/p>
+&lt;p>Is the current .doc binary format open?  No.  But its ubiquitous, with available reader, reader/writer combinations for free on EVERY major OS/Architecture.  If I create a Word document in Word, I can quite easily move that file to a completely different machine running a completely different OS, open it, edit it, save it, and return back to the original machine it was created on, or any other machine with a copy of Word, OpenOffice, Wordperfect, and so forth and be able to access the contents of that document, edit it, and so forth. &lt;/p>
+&lt;p>Does that make it an open format?  Of course not&amp;#8230; its a closed, proprietary binary format.  But when was the last time this was an issue of significance?  1996?  95?&lt;/p>
+&lt;p>Moving to OpenXML &amp;#8212; Is it really &amp;#8220;open&amp;#8221;?  Arguably yes, arguably no.  Does the fact that we can already take a proprietary, binary  document format and edit it on any machine at any time, and never pay a single dime to Microsoft suggest that the areas of dispute between what is open and what is not are a waste of resources that could be spent on making a better Oo.org Office Suite?&lt;/p>
+&lt;p>I can&amp;#8217;t answer for you&amp;#8230; But I can answer for me based on my own opinions&amp;#8230;.&lt;/p>
+&lt;p>You&amp;#8217;re not only wasting your own time and money, but you&amp;#8217;re wasting ours to, as its the tax payers who are having to take the burden of the Massachusetts situation, and anything that stems from this.  ARe the people of Massachusetts going to get something back in return that is equal to or greater than that in which they spent on this process?&lt;/p>
+&lt;p>If fewer features and slower software is something that is considered a good thing, then maybe its time to give up this hacking gig and take up something where I feel I can make a difference.&lt;/p>
+&lt;p>Maybe I could sell tie-died shirts on EBay, and spread the &amp;#8220;Peace&amp;#8221; that way&amp;#8230;  &lt;/p>
+&lt;p>What &amp;#8220;Peace&amp;#8221; that would be? &lt;/p>
+&lt;p>Who knows&amp;#8230; but it certainly seems to have a brighter future than one that&amp;#8217;s filled with legal battles over document formats that gain no tangible benefits other than the apparent freedom from something we already have, but are unwilling to accept because of the &amp;#8220;FEAR&amp;#8221; that MS might turn on us and sue us all for infringing upon its copyrights.&lt;/p>
+&lt;p>Folks, every business in the US and abroad has copyrights, and many of them have patents.  Something I learned from a comment from &lt;a href="http://blogs.msdn.com/mikechampion/">Mike Champion&lt;/a> from a while back is that much of the reasoning behind obtaining patents has nothing to do with taking control of an idea, and everything to do with protecting themselves from being sued by the &amp;#8220;competition&amp;#8221; who has made it common practice to file patent after patent and make every attempt at using those patents to then settle with big companies like MS, IBM, etc&amp;#8230; because they know that its cheaper for MS, IBM, etc&amp;#8230; to settle, than it is to fight it.  They&amp;#8217;re called patent trolls and we all know they exist, so lets not try and pretend that they don&amp;#8217;t.&lt;/p>
+&lt;p>Is this the only reason MS and IBM, etc&amp;#8230; file patents?  No.  But if we live our lives in fear based on the notion thats its possible that MS could turn around and sue us all for using their copyrighted document format, when we know beyond any reasonable doubt that the likelihood of this both happening, and a court in the United States and/or abroad actually letting such a process take place in their courts, is ZERO, then we might as well just forget about the notion of technological progress all together.  Somewhere, someone has a patent that is designed to do what it is that we want to do.  &lt;/p>
+&lt;p>As such, why even get out of bed in the morning?  There&amp;#8217;s a very good chance that there is something we will do that will infringe upon someones copyright, or patent, and as such, it just ain&amp;#8217;t worth the risk, right?&lt;/p>
+&lt;p>Obviously we all know the answer&amp;#8230;  But this is where we seem to be building the foundation of our future.&lt;/p>
+&lt;p>Why?&lt;/p>
+&lt;p>Folks, this is about features.  This is about enabling people to be MORE productive, not less.  If you honestly believe that its the Oasis Document Format that is the true provider of freedom from all things &amp;#8220;Vendor Lock-Down Evil&amp;#8221; then I guess we&amp;#8217;re at odds, as a specification is just that, a specification.  The power in and of itself doesn&amp;#8217;t exist in a specification, although it does hold the potential&amp;#8230;&lt;/p>
+&lt;p>However, the potential will make itself known, and therefore the real power and freedom exists in the software that uses this specification and/or ANY other specification that is designed to make better, more enabling, and productive software.&lt;/p>
+&lt;p>Is ODF more capable of producing better, more reliable software than is OpenXML?  I don&amp;#8217;t think so&amp;#8230; but I would certainly like to find out for sure by actually building the software to find out, instead of tie-dieing and selling t-shirts to &amp;#8220;Save The Planet!&amp;#8221;&lt;/p>
+&lt;p>Folks, we&amp;#8217;re not going to &amp;#8220;Save The Planet&amp;#8221; by spending our resources pleading our cases in court rooms&amp;#8230;  We&amp;#8217;re going to save it by putting our resources into enabling the people (thats us!) to be more productive, more capable, more connected,  more dis-connected for that matter, more reliable, better organized, and a million more things that will eventually lead to what &amp;#8220;Open&amp;#8221; and &amp;#8220;Free&amp;#8221; is all about&amp;#8230;&lt;/p>
+&lt;p>The freedom to open our minds, and free up our lives for things that allow us to truly be free in the first place.&lt;/p>
+&lt;p>Supposed freedom from document formats isn&amp;#8217;t the kind of freedom I believe in.  I believe in freedom that allows me to be what I want to be, and be with who I want to be with, and share with these same, as well as any other person on this planet the things that help bring a smile to my face.&lt;/p>
+&lt;p>Document formats are not the source of the freedom we seek, although the ability to freely exchange information is definitely one of those sources.  As such, I believe that the Oasis Open Document Format is an important specification to build software against, just as I believe OpenXML to be an important document format to build software against.&lt;/p>
+&lt;p>As such, can we PLEASE put the focus back on building this software, instead of building mountains of legal paperwork leading to yet another Government mandate that does the same thing all Government mandates are designed to do, which is&amp;#8230;&lt;/p>
+&lt;p>Put into place limitations.&lt;/p>
+&lt;p>Limitations take away from our freedoms, they don&amp;#8217;t add to them.  So why in the name of freedom are we attempting to put in place more limitations?
+&lt;/p>
+	</summary>
+	<author><name>M. David Peterson</name></author>
+	<updated>2006-05-11T23:45:45-08:00</updated>
+</entry>
+
+<entry>
+	<title>Why XHTML Can Save Internet Explorer</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/why_xhtml_can_save_internet_ex.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/why_xhtml_can_save_internet_ex.html?CMP=OTC-TY3388567169&amp;ATT=Why+XHTML+Can+Save+Internet+Explorer'/>
+	<summary type='html'>
+	&lt;p>I had an opportunity about a month ago to work with the Microsoft Internet Explorer team to help improve the browser. It was an extraordinarily tempting offer, and it was largely due to family pressures on my part that I reluctantly decided that it was just not possible to do it. The interview was exciting, I had a chance to talk first hand to a number of senior people with the team, and it has left me with a considerably changed impression of both Microsoft and their developers&amp;#8217; aspirations in producing the best product possible. If circumstances has been a little different (if I hadn&amp;#8217;t moved to Canada late last year) then I suspect this would have been a Microsoft post you&amp;#8217;d be reading now.&lt;/p>
+&lt;p>One thing that I realized, however, was that the Internet Explorer team has an amazing opportunity if they seize it now. Through a number of circumstances, one piece of technology that was never incorporated into the IE browser was a module capable of handling XHTML. Now, this may seem to be a fairly trivial omission - XHTML isn&amp;#8217;t exactly blazing through the commercial sky yet as a must have technology (though its getting there) - but I&amp;#8217;ve come to believe that in fact XHTML may be the key to one of the biggest problems that they face with IE - the problem of vendor legacy.&lt;/p>
+&lt;p>Millions upon millions of websites have adapted to the ideosyncracies of the IE browser when displaying their web pages, and in all too many of those cases, the adaptations are systemic because the HTML code is generated rather than hand-rendered. Most web portals are not updated manually anymore - they are built in generated pieces, the pieces are munged together through other generators, and the whole is often locked behind infrastructures and SOX legislation. For most such sites, changing the way that IE handles HTML is an extraordinarily disruptive occurence, one likely to cost potentially upwards of a billion dollars over the globe to fix.&lt;/p>
+&lt;p>What&amp;#8217;s more, some of IE&amp;#8217;s biggest &amp;#8220;customers&amp;#8221; are other applications within Microsoft, most notably Office. A change in the HTML rendering and interpretation would have severaly bad effects on product stability, and so one of the biggest points of inertia for IE is in fact these internal customers rather than customers in the outside world.&lt;/p>
+&lt;p>XHTML is not HTML. Yeah, it looks reasonably similar, but it does have a different syntax, a somewhat different rendering style, and perhaps most importantly, is namespace aware. IE&amp;#8217;s HTML rendering has some basic understanding of namespaces, but HTML 4.0 by itself is not generally namespace aware and the kludges involved in making it so have not been widely adopted yet by industry. &lt;/p>
+&lt;p>What this implies is that development of XHTML will necessitate the creation of an entirely new rendering module with the IE framework, one that is completely separated from the HTML renderer. Now, here&amp;#8217;s where things get interesting. Should Microsoft create such a module, there will be no vendor legacy to deal with &amp;#8230; now. You can create W3C conformant CSS interpretations and it will not disrupt anyone&amp;#8217;s workflow or require anyone to go back into mountains of legacy code to change a few dozen lines of code.  You can introduce proper support for namespaces that can more effectively bind into the browser, making it easier to adopt an SVG or XForms layer - and moreover may be able to open this functionality to third party vendors to do the same thing (and can even put in support for a XAML-lite if that proves to be attractive). &lt;/p>
+&lt;p>XHTML is about more than just a cleaner way of writing HTML. It makes HTML modular in a consistent fashion without the necessity of waiting for subsequent releases of the browser to incorporate such tags, and reduces the amount of &amp;#8220;ad-hoc&amp;#8221; tagging that the current engine tends to encourage. It makes incorporation of alternative namespaces feasible in a memory manageable way. It extends what can be done with AJAX-oriented systems. Especially given the largely auto-generative nature of the web, as well, by dealing with XHTML as a separate namespace and mime-type, it means that a web site producer can choose to develop an XHTML version of a site concurrently with their HTML version site without significant pain or outage, then can migrate over to an XHTML system entirely just by flicking a switch when that version of IE becomes sufficiently disseminated.  &lt;/p>
+&lt;p>The resulting XHTML (and CSS) can be guaranteed to be conformant with the W3C standards, and in the end Microsoft has a solid XML-based browser that may actually be competitive again with the still popular Firefox browser and a recently turbocharged Opera and Safari browsers. The IE team can also regain a certain level of autonomy for improveming the browser without having to be beholden to the Office team or other product teams at Microsoft; this freedom is CRITICAL if Internet Explorer hopes to have the opportunity to compete in what&amp;#8217;s rapidly becoming a wild spree of innovation everywhere else.&lt;/p>
+&lt;p>I&amp;#8217;d like to see it happen. For all that I take Microsoft to task, I also recognize that there&amp;#8217;s a hungriness in some of the new development teams (and make no mistake about it, the MS Internet Explorer team is remarkably new, and very hungry) who want to get beyond the &amp;#8220;we can&amp;#8217;t make these changes because it would cause pain to our legacy customers&amp;#8221; crap and really show their chops. Give them the chance to prove themselves, as this particular card comes along very seldom.&lt;/p>
+&lt;p>XHTML represents a chance to safely wipe the slate clean, to start again from scratch even while sheltered within the chrysalis of the old IE shell. Barring a complete revision of XML (something I see as unlikely for years) its a chance that won&amp;#8217;t come again in the working lifetimes of most of the peope there, and I believe they have the talent to make it happen. It should make for an interesting next couple of years.&lt;/p>
+&lt;p>&lt;i>Kurt Cagle is the CEO of Metaphorical Web, Inc., and the chairman of the &lt;a href="http://www.svgopen.org" target="new">SVG Open 2006 conference&lt;/a>.&lt;/i>&lt;/p>
+	</summary>
+	<author><name>Kurt Cagle</name></author>
+	<updated>2006-05-11T09:45:51-08:00</updated>
+</entry>
+
+<entry>
+	<title>Metrics for XML Projects #5: Structured Document Complexity Metric</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_5_str_1.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_5_str_1.html?CMP=OTC-TY3388567169&amp;ATT=Metrics+for+XML+Projects+5+Structured+Document+Complexity+Metric'/>
+	<summary type='html'>
+	&lt;h4>Structure Document Complexity Metric&lt;/h4>
+&lt;p>The Structured Document Complexity Metric asks the question &amp;#8220;How complex is this document set or schema?&amp;#8221; for the purposes of project estimation and management.  The metric works for a sampled set of documents (XML or SGML) and for grammar-based schemas as well. A schema that perfectly describes a set of document instances will have the same metric as that set, and so can be used to judge how optimal a schema is.&lt;/p>
+&lt;p>The Structure Document Complexity Metric is based on a count of elements and attributes, with addition scores for certain features that may add complexity. Of course, the document complexity is only one input in determining costs or estimating resources required for a transformation, say. Mileages vary. However, at its least the Structured Document Complexity Metric provides independent  verification that a schema is the order of complexity you are expecting, or that a sample set of documents completely exercises a schema.&lt;/p>
+&lt;p>The Structured Document Complexity Metric is a single number. For documents, or a set of documents, it is calculated by adding:&lt;/p>
+&lt;ul>
+&lt;li>The total number of unique elements (in SGML terminology, &amp;#8220;element types&amp;#8221;)&lt;/li>
+&lt;li>The total number of unique attributes&lt;/li>
+&lt;li>An extra point for every element that is required (i.e., always found in its parent element)&lt;/li>
+&lt;li>An extra point for every attribute that is required (i.e., always found on its parent element)&lt;/li>
+&lt;li>An extra point for every element that can only appear in position 1 of its parent&lt;/li>
+&lt;/ul>
+&lt;p>In the earlier examples, the JapaneseAddress schema has a metric of 13 (8 elements total plus 4 required elements plus 1 only ever appearing in first position) and the Taiwanese address has a metric of 14. The metric is not particularly revelatory or useful for such a small schema, of course!&lt;/p>
+&lt;p>For schemas or DTDs, it is calculated by adding:&lt;/p>
+&lt;ul>
+&lt;li>The total number of unique elements (in SGML terminology, &amp;#8220;element types&amp;#8221;)&lt;/li>
+&lt;li>The total number of unique attributes&lt;/li>
+&lt;li>An extra point for every element that is required (e.g., has a non-zero minOccurs in an XSD schema)&lt;/li>
+&lt;li>An extra point for every attribute that is required (e.g., has &lt;tt>#REQUIRED&lt;/tt> in a DTD)&lt;/li>
+&lt;li>An extra point for every element that can only appear in position 1 of its parent&lt;/li>
+&lt;/ul>
+&lt;p>The Structured Document Complexity Metric has been validated against many projects, and is reported to give better indication of complexity than, say, a simple element count. It has the virtue of being applicable to schemas and document sets. I know one company has used the metric as an input in variation costing. &lt;/p>
+&lt;p>There are of course other possible factors that could be added: some people consider the presence or possibility of recursion or optional elements before a required sibling to be additional factors, for example. A suggestion has been made to add points for each namespace used, because they indicate some change in semantic domain that may require different processing. &lt;/p>
+&lt;hr />&lt;br />
+&lt;h4>YAGNI&lt;/h4>
+&lt;p>Whenever I ask at a conference or client meeting &amp;#8220;How do you estimate how much resources an XSLT transform will take?&amp;#8221; the answer is almost invariably a more respectable word for &lt;i>guesswork&lt;/i>. You find a similar project, and use that as the basis. These metrics can help provide better information.&lt;/p>
+&lt;p>Occassionally, some SGML dinosaur arises from the swamp, dripping with experience and magnificently surprised to be still around, and gives some more practical approach: for example, Sean MacGrath mentioned that he thought it important to delay implementing rare elements, in a kind of 80/20 &lt;a href="http://en.wikipedia.org/wiki/YAGNI">YAGNI&lt;/a> heuristic. &lt;/p>
+&lt;p>YAGNI deserves to be tatooed on the breast of every XML manager.  We often understand well the implications of the XML Mapping Completeness Ratio, but the implications of a higher-than-expected Structured Document Complexity Metric or a low XML Mapping Additions Ratio are often under-appreciated. In particular, they may show that a kitchen-sink schema has been adopted which may require substanial extra work that does not spring from any actual business requirement. &lt;/p>
+&lt;hr />&lt;br />
+&lt;h4>Links&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="http://www.open-standards.com/05papers/Rick_Jelliffe.pdf">Efficient XML: Better Project and Cost Estimation&lt;/a> (PDF), presentation at Open Standards 2004, conference, Sydney.
+&lt;/li>
+&lt;li>&lt;a href="http://www.oreillynet.com/digitalmedia/blog/2004/11/xml_conferences_1_xml_open_cam.html">Blog&lt;/a> entry on presenting this metric to XML conference in Cambridge UK, 2004.&lt;/li>
+&lt;li>&lt;a href="http://www.topologi.com/products/utilities/complexitydetective.html">Topologi Complexity Detective&lt;/a>, a utility from my company that implements the Structured Document Complexity Metric.&lt;/li>
+&lt;/ul>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-11T05:15:50-08:00</updated>
+</entry>
+
+<entry>
+	<title>Metrics for XML Projects #4: XML Mapping Additions Ratio</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_4_xml_1.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_4_xml_1.html?CMP=OTC-TY3388567169&amp;ATT=Metrics+for+XML+Projects+4+XML+Mapping+Additions+Ratio'/>
+	<summary type='html'>
+	&lt;h2>XML Mapping Additions Ratio&lt;/h2>
+&lt;p>This metric asks the question &amp;#8220;How many fields are in the intended schema that are not in the original schema?&amp;#8221;  It can be used to judge whether adopting a standard schema unchanged will have the (possibly unintended) consequence of adding extra elements or attributes to support.&lt;/p>
+&lt;p>The metric is two numbers; the absolute values are of at least as much interest as the relative values, so we express them as a ration not a percentage. The ratio is formed using the following method:&lt;/p>
+&lt;ul>
+&lt;li>For the left-hand side, in the &amp;#8220;from&amp;#8221; schema count all &amp;#8220;fields&amp;#8221; (as defined earlier) which have adequate mappings to fields in the &amp;#8220;to&amp;#8221; schema. (This is the same as the right-hand side of the XML Mapping Completeness Ratio above.)
+&lt;/li>
+&lt;li>For the right-hand side, count all fields of the &amp;#8220;to&amp;#8221; schema.&lt;/li>
+&lt;/ul>
+&lt;p>For example, the address examples above have a ratio of 6:8. The elements &lt;tt>alley&lt;/tt> and &lt;tt>street&lt;/tt> are additions with no equivalent in the &amp;#8220;from&amp;#8221; schema. This result indicates that there are extra elements or attributes that need to be coped with. &lt;/p>
+&lt;p>A project manager can easily ask for technical staff to derive these metrics. If both are 1:1, there is a perfect match. If the XML Mapping Completeness Ratio is not 1:1, then the new schema is not suitable; a check also should be made whether in fact the unmapped elements are actually used of course. The further that the&lt;br />
+XML Mapping Additions Ratio diverges from 1:1, the more extra capability is being added that is not required for mere mapping purposes; if these extra capabilities and attendant costs do not correspond to a business requirement, the &amp;#8220;to&amp;#8221; schema should be pruned if possible or otherwise is probably not suitable.
+&lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-11T05:15:50-08:00</updated>
+</entry>
+
+<entry>
+	<title>Metrics for XML Projects #3: XML Mapping Completeness Ratio</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_3_xml_1.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_3_xml_1.html?CMP=OTC-TY3388567169&amp;ATT=Metrics+for+XML+Projects+3+XML+Mapping+Completeness+Ratio'/>
+	<summary type='html'>
+	&lt;h4>XML Mapping Completeness Ratio&lt;/h4>
+&lt;p>This metric asks the question &amp;#8220;How complete a mapping can be made from a document in one schema to a document in another schema?&amp;#8221;  It can be used to judge whether some intended schema is capable of holding the information in an existing schema.&lt;/p>
+&lt;p>The metric is two numbers; the absolute values are of at least as much interest as the relative values, so we express them as a ration not a percentage. The ratio is formed using the following method:&lt;/p>
+&lt;ul>
+&lt;li>For the left-hand side, in the &amp;#8220;from&amp;#8221; schema count all &amp;#8220;fields&amp;#8221;: these are elements and attributes that are not used for metadata, ID/IDREF or other linking, or for documentation. Don&amp;#8217;t count container elements (elements which have element content only) but do count any non-container elements that are in a container. &lt;/li>
+&lt;li>For the right-hand side, count the number of fields from the &amp;#8220;from&amp;#8221; schema which have adequate mappings in the &amp;#8220;to&amp;#8221; schema.  This right-hand number cannot be greater than the left-hand number; if they are the same, then there is a complete mapping.&lt;/li>
+&lt;/ul>
+&lt;p>The &amp;#8220;from&amp;#8221; schema does not have to be an XML schema: you could derive the number directly from a database schema by counting the number of non-key fields.&lt;/p>
+&lt;p>For example, say we have the following &amp;#8220;from&amp;#8221; schema (using DTD syntax for brevity):&lt;/p>
+&lt;pre>
+	&amp;lt;!ELEMENT JapaneseAddress  (apartment?, floor?, number, block, town?, city, prefecture)>
+&lt;/pre>
+&lt;p>and the following &amp;#8220;to&amp;#8221; schema:&lt;/p>
+&lt;pre>
+	&amp;lt;!ELEMENT TaiwaneseAddress (apartment?, floor?, number, alley?, street, district?,
+	city, province)>
+&lt;/pre>
+&lt;p>Then the XML Mapping Completeness Ratio is 7:6.  We can map town to suburb, but there is no specific equivalent to a Japanese &lt;tt>block&lt;/tt> in the Taiwanese address nor is there some general element that can take the information. This result indicates that the fit is not perfect: the &amp;#8220;to&amp;#8221; schema must be dropped, adapted or the unmapped element dropped.
+&lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-11T05:15:50-08:00</updated>
+</entry>
+
+<entry>
+	<title>Metrics for XML Projects #2: Production Count</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_2_pro.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_2_pro.html?CMP=OTC-TY3388567169&amp;ATT=Metrics+for+XML+Projects+2+Production+Count'/>
+	<summary type='html'>
+	&lt;h4>Production Count&lt;/h4>
+&lt;p>This metric asks the question &amp;#8220;How complex is this schema?&amp;#8221; (or DTD). &lt;/p>
+&lt;p>For a DTD, count the number of &amp;#8220;&amp;lt;!&amp;#8221; strings, substract the number of &amp;#8220;&amp;lt;!&amp;#8211;&amp;#8221; strings, subtract the number of  &amp;#8220;&amp;lt;!ENTITY&amp;#8221; strings and add the number of &amp;#8220;&amp;lt;!ENTITY %&amp;#8221; strings. This gives a count of the element, attlist, notation, marked sections and parameter entities declarations. &lt;/p>
+&lt;p>For an XML Schema, count the number of top-level non-comment elements, then add the number of elements declared locally and the number of elements that have attributes declared locally.&lt;/p>
+&lt;p>I recently used a variant on this metric on behalf of a client for a large project. The XML schema consultant on the project had assembled a schema based on industry standards and best practises; the XML programming team leader was concerned that this introduced many unnecessary elements and had mad an alternative, specific, minimal schema. Using this metric allowed us to say that one schema was at least five times as complex as the other, and circumvented the suspicion that there was just a personality difference involved. But what does &amp;#8220;five times&amp;#8221; mean?  Well, all it needed to mean in this case was that the schemas were substantially different in some sense.
+&lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-11T05:15:50-08:00</updated>
+</entry>
+
+<entry>
+	<title>Metrics for XML Projects #1: Element and Attribute Count</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_1_ele.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/metrics_for_xml_projects_1_ele.html?CMP=OTC-TY3388567169&amp;ATT=Metrics+for+XML+Projects+1+Element+and+Attribute+Count'/>
+	<summary type='html'>
+	&lt;p>Evidence-based management needs comprehensible information; metrics are distilled facts: not a bad fit. &lt;/p>
+&lt;p>Here is a series of blogs giving a metric that can be useful in many areas of XML project management, from verifying the suitability of adopting a particular schema, to making sure that only work and capabilites arising from business requirements are being carried out, to estimating the price variation that a schema change may entail.&lt;/p>
+&lt;p>Everyone using XML already uses a metric: well-formedness! Validity is also a metric. (I am simplifying away the difference between a metric and a measure in these blogs: pedants please lower your hackles!) But the metrics for XML on the Web are either concerned with communications and information theory, or are based on programming complexity measures, or are a little polluted by voodoo ideology about good structures and bad structures; I don&amp;#8217;t buy into the latter, at least not at the current state of knowledge. But there is a need for a good set of metrics for XML project management, scoping and to inform XML schema governanc, so I thought people might be interested in some of the metrics I have been developing and using. &lt;/p>
+&lt;p>They all address different, but to me vitally important, aspects of XML projects, and most are, I hope, common sense. Of course, you can make up your own metrics as well: but I think it is good to at least have a basic vocabulary of XML metrics to use or adapt or decry as appropriate.&lt;/p>
+&lt;h4>Element and Attribute Count&lt;/h4>
+&lt;p>This most basic and coarse metric asks the question &amp;#8220;How many element and attribute names are there?&amp;#8221;&lt;/p>
+&lt;p>Take a schema or document set, count the unique element names and the unique attribute names, and sum them. &lt;/p>
+&lt;p>It is a fine metric for schemas where elements or attributes only appear in a single context, with a single meaning. For example, a flat database dump of a single table with 50 fields has a metric of 51; a dump of a single table with 100 fields has a metric of 101; the idea that &lt;i>in some sense&lt;/i> the second table is twice as big as the first (as the metric suggests) is obvious.&lt;/p>
+&lt;p>For other kinds of documents, it becomes less attractive.  Mixed content, multiple contexts, attributes used on multiple elements, all these things make a document or schema somehow more complicated, and the Element and Attribute Count metric doesn&amp;#8217;t reflect that.
+&lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-11T05:15:50-08:00</updated>
+</entry>
+
+<entry>
+	<title>My life as a manga hero</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/my_life_as_a_manga_hero.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/my_life_as_a_manga_hero.html?CMP=OTC-TY3388567169&amp;ATT=My+life+as+a+manga+hero'/>
+	<summary type='html'>
+	&lt;p>Fun software at http://www.faceresearch.com/ allows you to age or youth-ify your face, turn it into an El Greco painting, or morph it into a Manga hero. &lt;/p>
+&lt;p>Here is me: &lt;img alt="rick_jelliffe2.jpg" src="http://www.oreillynet.com/xml/blog/images/rick_jelliffe2.jpg" width="312" height="435" />&lt;/p>
+&lt;p>And me as a Manga hero: &lt;img alt="RickManga.jpg" src="http://www.oreillynet.com/xml/blog/images/RickManga.jpg" width="322" height="412" />&lt;/p>
+&lt;p>The site has fun quizzes on face preferences, intelligence gathering for some academic study it seems. Their results tell me that apparantly I find male faces attractive that are either hyper-feminine or hyper-masculine, more than the average Joe does. Guilty!
+&lt;/p>
+	</summary>
+	<author><name>Rick Jelliffe</name></author>
+	<updated>2006-05-11T04:17:29-08:00</updated>
+</entry>
+
+<entry>
+	<title>Where's the Semantic Web excitement?</title>
+	<id>http://www.oreillynet.com/xml/blog/2006/05/wheres_the_semantic_web_excite.html</id>
+	<link rel='alternate' href='http://www.oreillynet.com/xml/blog/2006/05/wheres_the_semantic_web_excite.html?CMP=OTC-TY3388567169&amp;ATT=Where+s+the+Semantic+Web+excitement'/>
+	<summary type='html'>
+	&lt;p>Last year, &lt;a href="http://www.oreillynet.com/xml/blog/2005/10/is_web_20_killing_the_semantic.html">I suggested &lt;/a>that the Web 2.0 hype could be partly responsible for a lack of interest in the Semantic Web.&lt;/p>
+&lt;p>Google Trends can&amp;#8217;t prove this, but the results of &lt;a href="http://www.google.com/trends?q=web+2.0%2C+rdf&amp;#038;ctab=0&amp;#038;date=all&amp;#038;geo=all">search volume for &amp;#8220;Web 2.0&amp;#8243; against &amp;#8220;RDF&amp;#8221;&lt;/a> shows a worrying state of play for the Semantic Web crowd.&lt;/p>
+	</summary>
+	<author><name>Dan Zambonini</name></author>
+	<updated>2006-05-11T02:45:40-08:00</updated>
+</entry>
+
+</feed>
