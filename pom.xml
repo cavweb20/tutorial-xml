@@ -105,12 +105,12 @@
         <dependency>
             <groupId>org.codehaus.woodstox</groupId>
             <artifactId>woodstox-core-asl</artifactId>
-            <version>4.2.0</version>
+            <version>4.4.1</version>
         </dependency>
         <dependency>
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
-            <version>1.9.20</version>
+            <version>1.9.21</version>
         </dependency>
         <!-- runtime dependencies -->
         <dependency>
