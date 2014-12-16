@@ -48,6 +48,8 @@ public class XLinkLinkFinder
                 return;
             }
 
+            factory.setProperty(XMLInputFactory.IS_VALIDATING, Boolean.FALSE);
+            factory.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);
             is = (new URL(args[0])).openStream();
             parser = factory.createXMLStreamReader(is);
             while(true)

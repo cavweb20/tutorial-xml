@@ -40,7 +40,7 @@ public class WellformednessChecker
                 return;
             }
             factory.setProperty(XMLInputFactory.IS_VALIDATING, Boolean.FALSE);
-            factory.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.TRUE);
+            factory.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);
             is = (new URL(args[0])).openStream();
             parser = factory.createXMLStreamReader(is);
             if (LOG.isInfoEnabled())

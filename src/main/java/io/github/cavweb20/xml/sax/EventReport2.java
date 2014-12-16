@@ -47,7 +47,7 @@ public class EventReport2 extends DefaultHandler
     public void characters(char[] text, int start, int length)
             throws SAXException
     {
-        System.out.println(new String(text, start, length));
+        System.err.println(new String(text, start, length));
     }
 
 }
