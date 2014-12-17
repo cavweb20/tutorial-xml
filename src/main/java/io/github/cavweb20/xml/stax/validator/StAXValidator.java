@@ -20,8 +20,7 @@ public class StAXValidator
     private static Logger LOG = LoggerFactory.getLogger(StAXValidator.class);
 
     /**
-     * 
-     * @param args
+     *
      */
     public static void main(String[] args)
     {
