@@ -3,7 +3,7 @@
         Document Type Definition for the HyperText Markup Language
 	with Level 1 Extensions	(HTML Level 1 DTD).
 
-	$Id: HTML-2_0-Level_1.dtd,v 1.1 2009/04/20 11:55:45 velasco Exp $
+	$Id: HTML-2_0-Level_1.dtd,v 1.1 2005-05-24 06:12:46 ot Exp $
 
 	Author: Daniel W. Connolly <connolly@w3.org>
 	See Also: http://info.cern.ch/hypertext/WWW/MarkUp/MarkUp.html

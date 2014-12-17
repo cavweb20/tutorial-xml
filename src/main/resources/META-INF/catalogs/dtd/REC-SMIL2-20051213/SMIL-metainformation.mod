@@ -10,7 +10,7 @@
         Author: Thierry Michel, Jacco van Ossenbruggen
         Editor for SMIL 2.1: Sjoerd Mullender, CWI
         $Revision: 1.1 $
-        $Date: 2009/04/20 11:55:45 $
+        $Date: 2007-04-02 05:08:39 $
 
      This module declares the meta and metadata elements types and 
      its attributes, used to provide declarative document metainformation.

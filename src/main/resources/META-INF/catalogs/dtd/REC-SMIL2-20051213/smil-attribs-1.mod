@@ -9,7 +9,7 @@
 
         Editor for SMIL 2.1: Sjoerd Mullender, CWI
         $Revision: 1.1 $
-        $Date: 2009/04/20 11:55:45 $
+        $Date: 2007-04-02 05:08:40 $
 
      This DTD module is identified by the PUBLIC and SYSTEM identifiers:
 

@@ -4,7 +4,7 @@
 
      This is XHTML Basic, a proper subset of XHTML.
      Copyright 1998-2000 W3C (MIT, INRIA, Keio), All Rights Reserved.
-     Revision: xhtml-basic10-model-1.mod,v 1.1 2001-05-10 08:41:58 gerald Exp SMI
+     Revision: $Id: xhtml-basic10-model-1.mod,v 2.8 2000/11/03 14:28:25 mimasa Exp $ SMI
 
      This DTD module is identified by the PUBLIC and SYSTEM identifiers:
 

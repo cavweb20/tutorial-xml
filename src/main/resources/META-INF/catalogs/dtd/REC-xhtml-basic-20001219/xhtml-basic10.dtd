@@ -21,7 +21,7 @@
 
         Editors:    Murray M. Altheim <mailto:altheim@eng.sun.com>
                     Peter Stark       <mailto:Peter.Stark@ecs.ericsson.se>
-        Revision:   xhtml-basic10.dtd,v 1.1 2001-05-10 08:41:58 gerald Exp SMI
+        Revision:   $Id: xhtml-basic10.dtd,v 2.13 2000/12/18 12:56:23 mimasa Exp $ SMI
 
 -->
 <!-- This is the driver file for version 1.0 of the XHTML Basic DTD.
