@@ -53,7 +53,7 @@ public class StAXValidator
             parser = factory.createXMLEventReader(is);
             while (parser.hasNext())
             {
-                parser.nextEvent();
+                parser.next();
             }
             parser.close();
             if(xrep.getNErrors() == 0)
