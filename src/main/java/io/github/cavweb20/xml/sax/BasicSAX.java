@@ -22,7 +22,7 @@ public class BasicSAX
 {
 
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(BasicSAX.class);
+    private static final Logger LOG = LoggerFactory.getLogger(BasicSAX.class);
 
     public static void main(String[] args)
     {
@@ -36,24 +36,27 @@ public class BasicSAX
             return;
         }
 
-        for (int i = 0; i < args.length; i++)
+        for (String arg : args)
         {
             try
             {
                 XMLReader parser = XMLReaderFactory.createXMLReader();
                 parser.setFeature(
                         XercesConstants.FEATURE_LOAD_EXTERNAL_DTD, false);
-                parser.parse(args[i]);
-                if (LOG.isInfoEnabled()) LOG.info(args[i] + " is well-formed.");
+                parser.parse(arg);
+                if (LOG.isInfoEnabled())
+                {
+                    LOG.info(arg + " is well-formed.");
+                }
             }
             catch (SAXException e)
             {
-                LOG.error(args[i] + " is not well-formed.");
+                LOG.error(arg + " is not well-formed.");
                 LOG.error(e.getLocalizedMessage());
             }
             catch (IOException e)
             {
-                LOG.error("IOException in the SAX parser: " + args[i]);
+                LOG.error("IOException in the SAX parser: " + arg);
                 LOG.error(e.getLocalizedMessage());
             }
         }

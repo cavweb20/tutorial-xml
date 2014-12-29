@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 public class WellformednessChecker
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(WellformednessChecker.class);
+    private static final Logger LOG = LoggerFactory.getLogger(WellformednessChecker.class);
 
     /**
      * @param args
