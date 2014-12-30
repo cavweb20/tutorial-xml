@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class RSSFilter
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(RSSFilter.class);
+    private static final Logger LOG = LoggerFactory.getLogger(RSSFilter.class);
 
     /**
      * Example URL: http://feeds.feedburner.com/oreillynet/articles http://feeds.wired.com/wired/index

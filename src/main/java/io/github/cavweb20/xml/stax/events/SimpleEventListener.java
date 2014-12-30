@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class SimpleEventListener
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(SimpleEventListener.class);
+    private static final Logger LOG = LoggerFactory.getLogger(SimpleEventListener.class);
 
     /**
      * @param args

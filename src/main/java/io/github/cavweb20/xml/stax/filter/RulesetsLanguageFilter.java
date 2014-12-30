@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 public class RulesetsLanguageFilter
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(RulesetsLanguageFilter.class);
+    private static final Logger LOG = LoggerFactory.getLogger(RulesetsLanguageFilter.class);
 
     private final static String ruleRegistryPath =
         "/META-INF/lesson012/ruleRegistry.xml";
@@ -28,12 +28,12 @@ public class RulesetsLanguageFilter
     public static void main(String[] args)
     {
         String lang = "de";
-        StreamSource reader = null;
+        StreamSource reader;
         StringWriter sw = new StringWriter();
-        XMLInputFactory factory = null;
-        XMLOutputFactory ofactory = null;
+        XMLInputFactory factory;
+        XMLOutputFactory ofactory;
         XMLStreamReader parser = null;
-        XMLStreamWriter serializer = null;
+        XMLStreamWriter serializer;
 
         try
         {

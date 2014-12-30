@@ -17,14 +17,13 @@ public class WriteXMLDoc
     public static void main(String[] args)
     {
         StringWriter sw = new StringWriter();
-        XMLOutputFactory ofactory = null;
-        XMLStreamWriter serializer = null;
+        XMLOutputFactory ofactory;
+        XMLStreamWriter serializer;
 
         try
         {
             ofactory = XMLOutputFactory.newInstance();
-            ofactory.setProperty("javax.xml.stream.isRepairingNamespaces",
-                    Boolean.TRUE);
+            ofactory.setProperty("javax.xml.stream.isRepairingNamespaces", Boolean.TRUE);
             serializer = ofactory.createXMLStreamWriter(sw);
             
             serializer.writeStartDocument("utf-8", "1.0");
@@ -57,8 +56,6 @@ public class WriteXMLDoc
         }
         catch (XMLStreamException e)
         {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         }
     }
 }

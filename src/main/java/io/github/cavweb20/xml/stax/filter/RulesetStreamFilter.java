@@ -35,6 +35,7 @@ public class RulesetStreamFilter implements StreamFilter
      * 
      * @see javax.xml.stream.StreamFilter#accept(javax.xml.stream.XMLStreamReader)
      */
+    @Override
     public boolean accept(XMLStreamReader reader)
     {
         String name = null;

@@ -6,18 +6,16 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TextExtractor
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(TextExtractor.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TextExtractor.class);
 
     /**
      * @param args
@@ -45,14 +43,15 @@ public class TextExtractor
 
             factory.setProperty(XMLInputFactory.IS_VALIDATING, Boolean.FALSE);
             factory.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);
+            factory.setProperty(XMLInputFactory.IS_REPLACING_ENTITY_REFERENCES, Boolean.FALSE);
             is = (new URL(args[0])).openStream();
             parser = factory.createXMLStreamReader(is);
-            for (parser.next(); parser.hasNext(); parser.next())
+            do
             {
                 if (parser.isCharacters() || parser.isWhiteSpace())
                     out.write(parser.getTextCharacters(),
                             parser.getTextStart(), parser.getTextLength());
-            }
+            } while (parser.hasNext());
             parser.close();
             out.flush();
 

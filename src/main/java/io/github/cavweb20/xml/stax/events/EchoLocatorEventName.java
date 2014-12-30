@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class EchoLocatorEventName
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(EchoLocatorEventName.class);
+    private static final Logger LOG = LoggerFactory.getLogger(EchoLocatorEventName.class);
 
     /**
      * @param args
@@ -43,6 +43,7 @@ public class EchoLocatorEventName
 
             factory.setProperty(XMLInputFactory.IS_VALIDATING, Boolean.FALSE);
             factory.setProperty(XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);
+            factory.setProperty(XMLInputFactory.IS_REPLACING_ENTITY_REFERENCES, Boolean.FALSE);
             is = (new URL(args[0])).openStream();
             parser = factory.createXMLStreamReader(is);
             while(true)

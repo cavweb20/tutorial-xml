@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 public class SimpleXMLEventListener
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(SimpleXMLEventListener.class);
+    private static final Logger LOG = LoggerFactory.getLogger(SimpleXMLEventListener.class);
 
     /**
      * @param args

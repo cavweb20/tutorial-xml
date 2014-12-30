@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class XHTMLLinkFinder
 {
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(XHTMLLinkFinder.class);
+    private static final Logger LOG = LoggerFactory.getLogger(XHTMLLinkFinder.class);
     
     private static String printLinks (XMLStreamReader parser)
     {
