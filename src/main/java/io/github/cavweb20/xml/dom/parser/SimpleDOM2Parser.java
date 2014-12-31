@@ -1,15 +1,13 @@
 package io.github.cavweb20.xml.dom.parser;
 
 import java.io.IOException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
-
+import org.apache.xml.resolver.tools.CatalogResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.xml.resolver.tools.CatalogResolver;
 import org.xml.sax.SAXException;
 
 /**
@@ -20,7 +18,7 @@ public class SimpleDOM2Parser
 {
     
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(SimpleDOM2Parser.class);
+    private static final Logger LOG = LoggerFactory.getLogger(SimpleDOM2Parser.class);
 
     public static void main(String[] args)
     {

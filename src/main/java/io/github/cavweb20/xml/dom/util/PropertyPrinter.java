@@ -54,25 +54,25 @@ public class PropertyPrinter
         String prefix = node.getPrefix();
         String value = node.getNodeValue();
 
-        StringBuffer result = new StringBuffer();
-        result.append("Node " + nodeCount + ":\r\n");
-        result.append("  Type: " + type + "\r\n");
-        result.append("  Name: " + name + "\r\n");
+        StringBuilder result = new StringBuilder();
+        result.append("Node ").append(nodeCount).append(":\r\n");
+        result.append("  Type: ").append(type).append("\r\n");
+        result.append("  Name: ").append(name).append("\r\n");
         if (localName != null)
         {
-            result.append("  Local Name: " + localName + "\r\n");
+            result.append("  Local Name: ").append(localName).append("\r\n");
         }
         if (prefix != null)
         {
-            result.append("  Prefix: " + prefix + "\r\n");
+            result.append("  Prefix: ").append(prefix).append("\r\n");
         }
         if (uri != null)
         {
-            result.append("  Namespace URI: " + uri + "\r\n");
+            result.append("  Namespace URI: ").append(uri).append("\r\n");
         }
         if (value != null)
         {
-            result.append("  Value: " + value + "\r\n");
+            result.append("  Value: ").append(value).append("\r\n");
         }
 
         out.write(result.toString());

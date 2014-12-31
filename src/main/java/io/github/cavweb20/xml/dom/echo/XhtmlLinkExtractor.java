@@ -1,15 +1,13 @@
 package io.github.cavweb20.xml.dom.echo;
 
 import java.io.IOException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
-
+import org.apache.xml.resolver.tools.CatalogResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.xml.resolver.tools.CatalogResolver;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
@@ -24,14 +22,14 @@ public class XhtmlLinkExtractor
 {
 
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(XhtmlLinkExtractor.class);
+    private static final Logger LOG = LoggerFactory.getLogger(XhtmlLinkExtractor.class);
 
     public static void main(String[] args)
     {
         if (LOG.isDebugEnabled())
             LOG.debug("##### Start #####");
 
-        if (args.length != 1)
+        if (args.length < 1)
         {
             LOG.error("Usage: java XhtmlLinkExtractor URL");
             System.exit(-1);

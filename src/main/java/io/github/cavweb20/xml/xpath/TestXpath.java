@@ -1,7 +1,7 @@
 package io.github.cavweb20.xml.xpath;
 
+import io.github.cavweb20.xml.util.XercesConstants;
 import java.io.IOException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -10,14 +10,11 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-import io.github.cavweb20.xml.util.XercesConstants;
 
 /**
  * XPath example. Usage: java TestXpath META-INF/lesson08/shakespeare/hamlet.xml
@@ -29,7 +26,7 @@ public class TestXpath
 {
     
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(TestXpath.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TestXpath.class);
     
     public static void main(String[] args)
     {

@@ -16,7 +16,7 @@ public class DOMModulesChecker
 {
     
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(DOMModulesChecker.class);
+    private static final Logger LOG = LoggerFactory.getLogger(DOMModulesChecker.class);
     
     /**
      * Array with module names to check.
@@ -34,31 +34,35 @@ public class DOMModulesChecker
      */
     public static void check(DOMImplementation di)
     {
-        for (int i = 0; i < moduleNames.length; i++)
+        for (String moduleName : moduleNames)
         {
-            if (di.hasFeature(moduleNames[i], "3.0"))
+            if (di.hasFeature(moduleName, "3.0"))
             {
                 if (LOG.isInfoEnabled())
-                    LOG.info("Support for " + moduleNames[i]
-                        + " is included in the DOM 3.0 implementation.");
+                {
+                    LOG.info("Support for " + moduleName + " is included in the DOM 3.0 implementation.");
+                }
             }
-            else if (di.hasFeature(moduleNames[i], "2.0"))
+            else if (di.hasFeature(moduleName, "2.0"))
             {
                 if (LOG.isInfoEnabled())
-                    LOG.info("Support for " + moduleNames[i]
-                             + " is included in the DOM 2.0 implementation.");
+                {
+                    LOG.info("Support for " + moduleName + " is included in the DOM 2.0 implementation.");
+                }
             }
-            else if (di.hasFeature(moduleNames[i], "1.0"))
+            else if (di.hasFeature(moduleName, "1.0"))
             {
                 if (LOG.isInfoEnabled())
-                    LOG.info("Support for " + moduleNames[i]
-                             + " is included in the DOM 1.0 implementation.");
+                {
+                    LOG.info("Support for " + moduleName + " is included in the DOM 1.0 implementation.");
+                }
             }
             else
             {
                 if (LOG.isInfoEnabled())
-                    LOG.info("Support for " + moduleNames[i]
-                             + " is not included in any DOM implementation.");
+                {
+                    LOG.info("Support for " + moduleName + " is not included in any DOM implementation.");
+                }
             }
         }
     }
@@ -69,29 +73,21 @@ public class DOMModulesChecker
         if (LOG.isDebugEnabled())
             LOG.debug("##### Start #####");
         
-        if (args.length > 0)
-        {
-            LOG.error("Usage: java DOMModulesChecker");
-            System.exit(-1);
-        }
-        
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docbuild = null;
-        DOMImplementation domImpl = null;
+        DocumentBuilder docbuild;
+        DOMImplementation domImpl;
         
         try
         {
             docbuild = dbf.newDocumentBuilder();
+            domImpl = docbuild.getDOMImplementation();
+            check(domImpl);
         }
         catch (ParserConfigurationException pce)
         {
-            LOG.error("Error: Exception in parser configuration");
-            pce.printStackTrace();
+            LOG.error("Error: Exception in parser configuration" + pce.getLocalizedMessage());
         }
-        domImpl = docbuild.getDOMImplementation();
-        
-        check(domImpl);
-        
+
         if (LOG.isDebugEnabled())
             LOG.debug("##### End #####");
     }

@@ -23,7 +23,7 @@ public class TextExtractor
 {
 
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(TextExtractor.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TextExtractor.class);
 
     public static void followNode(Node node)
     {
@@ -44,7 +44,7 @@ public class TextExtractor
         if (LOG.isDebugEnabled())
             LOG.debug("##### Start #####");
 
-        if (args.length != 1)
+        if (args.length < 1)
         {
             LOG.error("Usage: java TextExtractor URL");
             System.exit(-1);

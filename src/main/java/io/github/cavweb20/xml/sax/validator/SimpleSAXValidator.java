@@ -1,8 +1,8 @@
 package io.github.cavweb20.xml.sax.validator;
 
+import io.github.cavweb20.xml.sax.error.CustomErrorHandler;
 import java.io.IOException;
-
-import io.github.cavweb20.xml.sax.error.ValidatorErrorHandler;
+import org.apache.xml.resolver.tools.CatalogResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
@@ -11,7 +11,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 
 public class SimpleSAXValidator
 {
-    private static Logger LOG = LoggerFactory.getLogger(SimpleSAXValidator.class);
+    private static final Logger LOG = LoggerFactory.getLogger(SimpleSAXValidator.class);
 
     public static void main(String[] args)
     {
@@ -24,27 +24,24 @@ public class SimpleSAXValidator
         }
 
         XMLReader parser;
-        ValidatorErrorHandler eh = new ValidatorErrorHandler();
+        CustomErrorHandler eh = new CustomErrorHandler();
         try
         {
             parser = XMLReaderFactory.createXMLReader();
             parser.setErrorHandler(eh);
-            parser.setFeature("http://xml.org/sax/features/validation", true);
-            parser.setFeature("http://apache.org/xml/features/validation/schema", true);
             // crashes w/o catalog: no longer possible to load DTD from the Internet
+            parser.setEntityResolver(new CatalogResolver());
+            parser.setFeature("http://xml.org/sax/features/validation", true);
+            // Dangerous! Use with caution
+            parser.setFeature("http://apache.org/xml/features/continue-after-fatal-error", true);
             parser.parse(args[0]);
             if(eh.getErrorMessages() == 0) LOG.info(args[0] + " is valid.");
             else LOG.info(args[0] + " is invalid.");
         }
-        catch (SAXException e)
+        catch (SAXException | IOException e)
         {
             LOG.error(e.getLocalizedMessage());
-            System.exit(-1);
-        }
-        catch (IOException e)
-        {
-            LOG.error(e.getLocalizedMessage());
-            System.exit(-1);
+            System.exit(1);
         }
 
         if (LOG.isDebugEnabled()) LOG.debug("##### End #####");

@@ -1,15 +1,13 @@
 package io.github.cavweb20.xml.dom.parser;
 
+import io.github.cavweb20.xml.dom.util.PropertyPrinter;
 import java.io.IOException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-
-import io.github.cavweb20.xml.dom.util.PropertyPrinter;
+import org.apache.xml.resolver.tools.CatalogResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.xml.resolver.tools.CatalogResolver;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
@@ -22,9 +20,9 @@ public class TreeReporter
 {
     
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(TreeReporter.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TreeReporter.class);
 
-    private PropertyPrinter printer = new PropertyPrinter();
+    private final PropertyPrinter printer = new PropertyPrinter();
 
     public void followNode(Node node) throws IOException
     {

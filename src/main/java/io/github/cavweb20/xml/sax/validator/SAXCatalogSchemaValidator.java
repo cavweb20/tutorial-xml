@@ -1,16 +1,14 @@
 package io.github.cavweb20.xml.sax.validator;
 
+import io.github.cavweb20.xml.sax.error.CustomErrorHandler;
+import io.github.cavweb20.xml.util.SAXConstants;
 import java.io.IOException;
-
 import javax.xml.XMLConstants;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
-
-import io.github.cavweb20.xml.sax.error.CustomErrorHandler;
-import io.github.cavweb20.xml.util.SAXConstants;
+import org.apache.xml.resolver.tools.CatalogResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.xml.resolver.tools.CatalogResolver;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
@@ -31,10 +29,11 @@ public class SAXCatalogSchemaValidator extends DefaultHandler
 {
 
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(SAXCatalogSchemaValidator.class);
+    private static final Logger LOG = LoggerFactory.getLogger(SAXCatalogSchemaValidator.class);
 
     /**
      * Main executable program
+     * @param args
      */
     public static void main(String[] args)
     {
@@ -47,7 +46,7 @@ public class SAXCatalogSchemaValidator extends DefaultHandler
             return;
         }
 
-        for (int i = 0; i < args.length; i++)
+        for (String arg : args)
         {
             try
             {
@@ -59,30 +58,20 @@ public class SAXCatalogSchemaValidator extends DefaultHandler
                         XMLConstants.W3C_XML_SCHEMA_NS_URI);
                 parser.setEntityResolver(new CatalogResolver());
                 parser.setErrorHandler(new CustomErrorHandler());
-                parser.parse(args[i]);
+                parser.parse(arg);
                 if (LOG.isInfoEnabled())
-                    LOG.info(args[i] + " is valid.");
+                {
+                    LOG.info(arg + " is valid.");
+                }
             }
-            catch (SAXNotRecognizedException e)
-            {
-                LOG.error("Error: " + e.getLocalizedMessage());
-            }
-            catch (SAXNotSupportedException e)
+            catch (SAXNotRecognizedException | SAXNotSupportedException | ParserConfigurationException | IOException e)
             {
                 LOG.error("Error: " + e.getLocalizedMessage());
             }
             catch (SAXException e)
             {
                 LOG.error("Error: " + e.getLocalizedMessage());
-                LOG.error(args[i] + " is invalid.");
-            }
-            catch (ParserConfigurationException e)
-            {
-                LOG.error("Error: " + e.getLocalizedMessage());
-            }
-            catch (IOException e)
-            {
-                LOG.error("Error: " + e.getLocalizedMessage());
+                LOG.error(arg + " is invalid.");
             }
         }
 

@@ -1,15 +1,14 @@
 package io.github.cavweb20.xml.dom.echo;
 
+import io.github.cavweb20.xml.dom.echo.filters.XhtmlCSSLinkNodeFilter;
 import java.io.IOException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
-
+import org.apache.xml.resolver.tools.CatalogResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.xml.resolver.tools.CatalogResolver;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.traversal.DocumentTraversal;
@@ -25,14 +24,14 @@ public class XhtmlCSSLinkExtractor
 {
 
     // Setting up the logging properties
-    private static Logger LOG = LoggerFactory.getLogger(XhtmlCSSLinkExtractor.class);
+    private static final Logger LOG = LoggerFactory.getLogger(XhtmlCSSLinkExtractor.class);
 
     public static void main(String[] args)
     {
         if (LOG.isDebugEnabled())
             LOG.debug("##### Start #####");
 
-        if (args.length != 1)
+        if (args.length < 1)
         {
             LOG.error("Usage: java XhtmlCSSLinkExtractor URL");
             System.exit(-1);

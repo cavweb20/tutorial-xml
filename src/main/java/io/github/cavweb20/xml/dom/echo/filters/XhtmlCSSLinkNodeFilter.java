@@ -1,4 +1,4 @@
-package io.github.cavweb20.xml.dom.echo;
+package io.github.cavweb20.xml.dom.echo.filters;
 
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -10,11 +10,11 @@ public class XhtmlCSSLinkNodeFilter implements NodeFilter
     /**
      * @see org.w3c.dom.traversal.NodeFilter#acceptNode(org.w3c.dom.Node)
      */
+    @Override
     public short acceptNode(Node n)
     {
         Element elem = (Element)n;
-        if(elem.getLocalName().equals("link") &&
-           elem.getAttribute("type").equals("text/css"))
+        if(elem.getLocalName().equals("link") && elem.getAttribute("type").equals("text/css"))
             return FILTER_ACCEPT;
         return FILTER_SKIP;
     }
